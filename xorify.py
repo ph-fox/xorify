@@ -1,5 +1,5 @@
 
-text ="fuckyou"
+text ="label"
 from_string = []
 for char in text:
 	from_string.append(ord(char))
