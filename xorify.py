@@ -1,16 +1,12 @@
 
-text ="label"
-from_string = []
-for char in text:
-	from_string.append(ord(char))
+text = "label"
 
-from_int = []
-for num in from_string:
-	from_int.append(num^13)
+msg_int = []
+for char in text:
+	msg_int.append(ord(char)^13)
 
 text = ""
-for char in from_int:
-	text+=str(chr(char))
-
+for integers in msg_int:
+	text+=chr(integers)
+	
 print(text)
-
