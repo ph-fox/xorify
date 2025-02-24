@@ -1,5 +1,1 @@
-def xorify(text, num):
-	converted = ''.join([chr(x) for x in ([ord(x)^int(num) for x in text])])
-	print(converted)
-
-xorify('label',13)
+print(''.join([chr(ord(i)^13) for i in 'label'])) 
